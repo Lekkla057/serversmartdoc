@@ -42,7 +42,7 @@ var client = mqtt.connect({
 client.on("connect", function () {
   // Subscribe any topic
   console.log("MQTT Connect");
-  client.subscribe("c", function (err) {
+  client.subscribe("C", function (err) {
     if (err) {
       console.log(err);
     }
